@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #8df0ca;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 1200px;
+}
+/*############################################
+Ab hier kannst du coden
+##############################################*/
+
+/* Wenn du auf die farbige Box klickst, kannst du so direkt die Hintergrundfarbe vom Charakter
+und der Textbox ändern. Oder du gibst dafür da manuell drei Zahlen zwischen 0 und 255 ein. */
+#box, #koerper, #auswahl_koerper {
+   background-color: rgb(67, 161, 133);
+}
+
+/* Das ist der Name deines Charakters (vorher Überschrift).
+Du kannst hier die Schriftfarbe und die Schriftgröße ändern.
+Denke daran, hinter der Zahl dase "px" zu schreiben.
+Den Namen selbst änderst du in der index.html. */
+h1
+{
+  color: black;
+  font-size: 35px;
+}
+
+/* Das ist die Textbox auf der rechten Seite.
+Du kannst hier die Schriftfarbe und die Schriftgröße ändern.*/
+p{
+  color: black;
+  font-size: 20px;
+}
+
+/*########################################
+AB HIER BITTE NICHTS ANFASSEN! :)
+##########################################*/
+
+#avatar {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 560px;
+}
+
+#avatar h1 {
+  margin-top: 20px;
+
+}
+#avatar #koerper {
+  margin-top: 20px;
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 450px;
+  height: 560px;
+  border-radius: 25px;
+
+}
+
+#avatar [alt=Brille] {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 325px;
+  z-index: 40;
+}
+
+#avatar [alt=Muetze] {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 400px;
+  z-index: 30;
+}
+
+#auswahl_koerper {
+  margin-top: 20px;
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  border-radius: 25px;
+}
+
+#box
+{
+  padding:10px;
+  margin-top: 20px;
+  width: 150px;
+  position: absolute;
+  top: 0;
+  right: 20%;
+  border-radius: 25px;
+}
+
+#auswahl_koerper img {
+  height: 108px;
+  cursor: pointer;
+}
+
+#bibLogo
+{
+  margin-top: 50px;
+}
