@@ -32,13 +32,14 @@ knopf.addEventListener("click", function () {
 
   // Der Knopf kann auch andere Dinge machen. Mache die zwei "//" ab den Zeilen unten weg
   // und schau, was passiert, wenn du den Knopf klickst (immer vorher Browser aktualisieren).
+  // Du kannst die "//" auch wieder davor setzen, um die Effekte rückgängig zu machen.
 
   // document.body.style.fontFamily = "Comic Sans MS, Comic Sans, cursive";
   // document.getElementById("knopfBereich").insertAdjacentHTML("afterend", "<p>Du hast den Knopf geklickt!</p>");
   // alert("Hallo! Du hast den Knopf geklickt!");
   // document.body.style.opacity = "0.5";
   // aktuellerKoerper.src = "Bilder/gif/surprise.gif";
-  // knopfBereich.insertAdjacentHTML("afterend", "<p>Gib hier ein was du willst!</p>");
+  // knopfBereich.insertAdjacentHTML("afterend", "<p>Gib hier ein, was du willst!</p>");
 });
 
 
