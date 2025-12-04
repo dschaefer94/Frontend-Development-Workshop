@@ -1,8 +1,8 @@
 body
 {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  margin-top: 3%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 3%;
 }
 
 #Karte
@@ -14,18 +14,20 @@ body
     background-color: rgb(147, 147, 206);
 }
 
-ul
-{
-  display: inline-block;
-  text-align: left;
-  margin-top: 0;
-}
-
 h1
 {
     margin-bottom: 0;
 }
+
 h3
 {
     margin-bottom: 0;
 }
+
+ul
+{
+    display: inline-block;
+    text-align: left;
+    margin-top: 0;
+}
+
