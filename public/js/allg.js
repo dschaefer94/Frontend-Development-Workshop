@@ -39,7 +39,6 @@ knopf.addEventListener("click", function () {
   // alert("Hallo! Du hast den Knopf geklickt!");
   // document.body.style.opacity = "0.5";
   // aktuellerKoerper.src = "Bilder/gif/surprise.gif";
-  // knopfBereich.insertAdjacentHTML("afterend", "<p>Gib hier ein, was du willst!</p>");
 });
 
 
