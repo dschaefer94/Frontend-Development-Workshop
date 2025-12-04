@@ -1,61 +1,66 @@
 <!doctype html>
 <html lang="de">
 
-  <head>
-    <meta charset="utf-8">
-    <title>Bau dir deinen Character</title>
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Bau dir deinen Character</title>
+  <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
 
-  <body>
-   <h1>Baue deinen Charakter</h1>
+<body>
+  <h1>Baue deinen Charakter</h1>
 
-    <div id="avatar">
-      <div id="auswahl_koerper">
-        <img src="Bilder/Tiere/Tier_01.png" alt="Teddy" width="110" height="175">
-        <img src="Bilder/Tiere/Tier_02.png" alt="Katze" width="110" height="175">
-        <img src="Bilder/Tiere/Tier_03.png" alt="Frosch" width="110" height="175">
-        <img src="Bilder/Tiere/Tier_04.png" alt="Hund" width="110" height="175">
-        <img src="Bilder/Tiere/Tier_05.png" alt="Waschbär" width="110" height="175">
-      </div>
+  <div id="avatar">
+    <div id="auswahl_koerper">
+      <img src="Bilder/Tiere/Tier_01.png" alt="Teddy" width="110" height="175">
+      <img src="Bilder/Tiere/Tier_02.png" alt="Katze" width="110" height="175">
+      <img src="Bilder/Tiere/Tier_03.png" alt="Frosch" width="110" height="175">
+      <img src="Bilder/Tiere/Tier_04.png" alt="Hund" width="110" height="175">
+      <img src="Bilder/Tiere/Tier_05.png" alt="Waschbär" width="110" height="175">
+    </div>
 
-      <!--##########################################
+    <!--##########################################
       Ab hier kannst du coden :)
       ##############################################-->
 
-      <!-- Da, wo "Beispieltext" steht, kannst du eingeben, was du möchtest.
+    <!-- Da, wo "Beispieltext" steht, kannst du eingeben, was du möchtest.
        Es taucht dann in der Textbox rechts neben deinem Charakter auf.
        Pass nur auf, dass der Text zwischen <p> und </p> steht. -->
-       <div id="box">
-        <p>Wir haben auch Brillen und Hüte auf Lager. Das Lager ist aber im Code versteckt :]
-          Gehe dafür in die index.html-Datei rein und suche nach dem grünen Text.
-        </p>
-      </div>
-      
-      <!--Das hier lassen wir so stehen. Spring weiter nach unten.-->
-      <div id="koerper">
-          <img id="aktuellerKoerper" src="Bilder/Tiere/Tier_01.png" alt="aktueller Körper" >
-        <h1>&nbsp;</h1>
-
-        <!-- Eine Brille wäre cool, oder? Die haben wir auf Lager! Wenn du hier unten beim Bildpfad
-         "00.png" mit z.B. "01.png" etc. ersetzt, findest du eine.
-         Das gilt auch für die Hüte eine Zeile tiefer. Designe so deinen Charakter! -->
-        <img src="Bilder/Brillen/Brille_00.png" alt="Brille" id="oben">
-        <img src="Bilder/Hüte/Hut_00.png" alt="Muetze" id="oben">
-      </div>
+    <div id="box">
+      <p>Wir haben auch Brillen und Hüte auf Lager. Das Lager ist aber im Code versteckt :]
+        Gehe dafür in die index.html-Datei rein und suche nach dem grünen Text.
+      </p>
     </div>
 
-    <!-- ####################################
+    <!--Das hier lassen wir so stehen. Spring weiter nach unten.-->
+    <div id="koerper">
+      <img id="aktuellerKoerper" src="Bilder/Tiere/Tier_01.png" alt="aktueller Körper">
+      <h1>&nbsp;</h1>
+
+      <!-- Eine Brille wäre cool, oder? Die haben wir auf Lager! Wenn du hier unten beim Bildpfad
+         "00.png" mit z.B. "01.png" etc. ersetzt, findest du eine.
+         Das gilt auch für die Hüte eine Zeile tiefer. Designe so deinen Charakter! -->
+      <img src="Bilder/Brillen/Brille_00.png" alt="Brille" id="oben">
+      <img src="Bilder/Hüte/Hut_00.png" alt="Muetze" id="oben">
+    </div>
+  </div>
+
+  <!-- Dieser Knopf hier unten kann noch nichts. Aber in der "allg.js"-Datei kannst du dem Button
+     sagen, was er machen soll!-->
+
+  <div id="knopfBereich">
+    <button id="knopf">Klick mich</button>
+  </div>
+
+  <!-- ####################################
     Ab hier bitte nichts anfassen :) 
     ###########################################-->
 
-    <img id="bibLogo" src="Bilder/biblogo.jpg" alt="bibLogo" width="263" height="99">
+  <img id="bibLogo" src="Bilder/biblogo.jpg" alt="bibLogo" width="263" height="99">
 
+  <script src="js/funktionen.js"></script>
+  <script src="js/allg.js"></script>
 
-  
-    <script src="js/funktionen.js"></script>
-    <script src="js/allg.js"></script>
-
-  </body>
+</body>
 
 </html>
