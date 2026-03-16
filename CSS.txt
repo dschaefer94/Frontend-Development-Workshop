@@ -1,0 +1,32 @@
+CSS Cheat Sheet
+Textgröße ändern
+p { font-size: 20px; }
+Text zentrieren
+h1 { text-align: center; }
+Fetter Text
+strong { font-weight: bold; }
+Kursiver Text
+em { font-style: italic; }
+Kasten um Elemente
+.box { outline: 3px solid black; }
+Abstand oben
+h2 { margin-top: 20px; }
+Innenabstand (Polster)
+.box { padding: 10px; }
+Bild kleiner machen
+img { width: 150px; }
+Element zentrieren
+.karte { display: block; margin-left: auto; margin-right: auto; }
+Liste ändern
+ul { list-style-type: square; }
+Hover Effekte (Farbe/Größe)
+button:hover { opacity: 0.8; }
+img:hover { transform: scale(1.1); }
+Sanfter Übergang
+div { transition: 0.3s; }
+Abgerundete Ecken
+.karte { border-radius: 10px; }
+Schatten
+.karte { box-shadow: 0px 0px 10px rgba(0,0,0,0.3); }
+Durchsichtigkeit
+img { opacity: 0.5; }

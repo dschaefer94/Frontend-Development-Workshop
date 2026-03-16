@@ -15,7 +15,7 @@ koerper.forEach((bild) => {
 
       //Diese Zahl hier unten (100) ist die Dauer der Transition in Millisekunden (1000ms = 1s)
       //Guck mal, was passiert, wenn du z.B. 1000 eingibst, aktualisierst und auf ein anderes Tier klickst!
-   }, 100);
+   }, 1000);
   });
 });
 
@@ -34,11 +34,11 @@ knopf.addEventListener("click", function () {
   // und schau, was passiert, wenn du den Knopf klickst (immer vorher Browser aktualisieren).
   // Du kannst die "//" auch wieder davor setzen, um die Effekte rückgängig zu machen.
 
-  //document.body.style.fontFamily = "Comic Sans MS, Comic Sans, cursive";
+  document.body.style.fontFamily = "Comic Sans MS, Comic Sans, cursive";
   //document.getElementById("knopfBereich").insertAdjacentHTML("afterend", "<p>Du hast den Knopf geklickt!</p>");
   //alert("Hallo! Du hast den Knopf geklickt!");
   //document.body.style.opacity = "0.5";
-  //aktuellerKoerper.src = "Bilder/gif/surprise.gif";
+  aktuellerKoerper.src = "Bilder/gif/surprise.gif";
 });
 
 

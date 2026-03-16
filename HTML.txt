@@ -1,0 +1,27 @@
+HTML Cheat Sheet
+Textformatierungen
+<b>Fetter Text</b>
+<strong>Wichtiger fetter Text</strong>
+<i>Kursiver Text</i>
+<em>Betonter kursiver Text</em>
+<u>Unterstrichen</u>
+<s>Durchgestrichen</s>
+<small>Kleinerer Text</small>
+Überschriften (h1 bis h6)
+<h1>Überschrift 1</h1>
+<h2>Überschrift 2</h2>
+<h3>Überschrift 3</h3>
+Absätze & Zeilen
+<p>Das ist ein Absatz.</p>
+Zeile 1<br>Zeile 2
+Links
+<a href="https://example.com">Klick mich</a>
+<a href="mailto:daniel.schaefer@edu.bib.de">E-Mail senden</a>
+Bilder
+<img src="bild.jpg" alt="Bildbeschreibung">
+<img src="Bilder/bild.jpg">
+Listen
+<ul> <li>Eintrag</li> </ul>
+<ol> <li>Nummeriert</li> </ol>
+Trennlinie
+<hr>
